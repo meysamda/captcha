@@ -1,0 +1,10 @@
+https://github.com/twsl/Kaptcha.NET
+
+TODO
+
+Currently, System.Drawing.Common is used. I plan on replacing it in the future. To use it on Linux, add the following commands to your docker file
+
+sudo apt install libc6-dev 
+sudo apt install libgdiplus
+
+and consider checking out this blog post by Scott Hanselman. (https://www.hanselman.com/blog/HowDoYouUseSystemDrawingInNETCore.aspx)
