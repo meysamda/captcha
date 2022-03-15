@@ -11,7 +11,7 @@ namespace KaptchaNET.Options
             this.Add(nameof(BoxEffect), false);
             this.Add(nameof(LineEffect), true);
 
-            this.Add(nameof(NoiseEffect), true);
+            this.Add(nameof(NoiseEffect), false);
             this.Add(nameof(RippleEffect), false);
             this.Add(nameof(WaveEffect), true);
         }

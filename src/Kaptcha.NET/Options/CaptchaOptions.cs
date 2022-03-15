@@ -9,7 +9,7 @@ namespace KaptchaNET.Options
         /// <summary>
         /// The width of the captcha in pixel.
         /// </summary>
-        public int Width { get; set; } = 100;
+        public int Width { get; set; } = 150;
 
         /// <summary>
         /// The height of the captcha in pixel.
